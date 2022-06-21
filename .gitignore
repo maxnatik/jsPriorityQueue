@@ -8,7 +8,7 @@ compiled
 .env.*.local
 
 # local test file
-index.*
+/index.*
 
 # Log files
 npm-debug.log*
