@@ -5,6 +5,10 @@
     "main": "dist/PriorityQueue.umd.js",
     "module": "dist/PriorityQueue.es5.js",
     "types": "dist/types/PriorityQueue.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maxnatik/jsPriorityQueue.git"
+    },
     "files": [
         "dist"
     ],
