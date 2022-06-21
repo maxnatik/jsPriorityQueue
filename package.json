@@ -1,0 +1,42 @@
+{
+    "name": "@evan/priorityqueue",
+    "version": "0.9.0",
+    "description": "Fast priority queue / k-ary min-heap for @evan projects. Writed on TypeScript with C#-like interface.",
+    "main": "dist/PriorityQueue.umd.js",
+    "module": "dist/PriorityQueue.es5.js",
+    "types": "dist/types/PriorityQueue.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc --project tsconfig.build.json && rollup -c && typedoc",
+        "start": "tsc-watch --onSuccess \"rollup -c\"",
+        "test": "jest"
+    },
+    "keywords": [
+        "heap",
+        "priority queue",
+        "tree",
+        "data structure",
+        "algorithm",
+        "typescript"
+    ],
+    "author": "Eugene Zinchenko",
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^22.0.0",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@types/benchmark": "^2.1.1",
+        "@types/jest": "^28.1.2",
+        "@types/node": "^18.0.0",
+        "jest": "^28.1.1",
+        "lodash.camelcase": "^4.3.0",
+        "rollup": "^2.75.6",
+        "rollup-plugin-sourcemaps": "^0.6.3",
+        "ts-jest": "^28.0.5",
+        "tsc-watch": "^5.0.3",
+        "typedoc": "^0.22.17",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {}
+}
